@@ -330,7 +330,7 @@ h4{
 }
 
 .event-1{
-    background-image: url("./images/events-1.jpg");
+    background-image: url("events-1.jpg");
     background-size: 100% 100%;
     position: relative;
 }
@@ -345,7 +345,7 @@ h4{
 }
 
 .event-2{
-    background-image: url("./images/events-2.jpg");
+    background-image: url("events-2.jpg");
     background-size: 100% 100%;
     position: relative;
 }
@@ -356,7 +356,7 @@ h4{
 }
 
 .event-3{
-    background-image: url("./images/events-3.jpg");
+    background-image: url("events-3.jpg");
     background-size: 100% 100%;
     position: relative;
 }
