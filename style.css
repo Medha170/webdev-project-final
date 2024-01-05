@@ -1,0 +1,603 @@
+body {
+    margin: 20px;
+    font-family: 'Arial', sans-serif;
+}
+/*Sytling nav bar*/
+.Navigation-Bar {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid rgb(218, 144, 32);
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.website-name {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.dot {
+    margin-left: 0.2rem;
+    color:red;
+}
+
+.Navigation-menus ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.Navigation-menus li {
+    margin-right: 10px;
+}
+
+.Nav-tab {
+    text-decoration: none;
+    color: dimgrey;
+    padding: 0.5rem;
+}
+
+.Nav-tab:hover{
+    text-decoration: underline solid red;
+    color:black;
+    transition: 0.5s ease-in-out;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+/*Styling Home-tab*/
+.Home-tab {
+    text-align: flex-start;
+    display:flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    background-color: rgb(218, 144, 32);
+}
+
+.Heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.para p {
+    color: #555;
+    text-align: start;
+}
+
+.book-a-table {
+    align-self: start;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background-color: red;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.watch-video {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+
+.watch-video {
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: red;
+    border: 1px solid red;
+    border-radius:100%;
+    cursor: pointer;
+    padding: 0.5rem 0.5em;
+}
+
+.label{
+    display:flex;
+    align-items: center;
+}
+
+.image img {
+    width: 25vw;
+    height: 25vh;
+    margin-top: 2rem;
+    margin-left:20rem;
+}
+
+/*Styling the About us Section*/
+.About-us-Heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+h4{
+    color:dimgrey;
+}
+
+.h1-container{
+    display: flex;
+    gap: 5px;
+}
+
+.image1 img{
+    position:relative;
+    height:50rem;
+    width:50rem;
+}
+
+.book{
+    font-weight: bold;
+    display: block;
+}
+
+.number{
+    font-weight: bold;
+    display: block;
+    color: red;
+}
+
+.text-in-image1{
+    position:absolute;
+    height: 50px;
+    width: 250px;
+    bottom: -30%;
+    left: 10%;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.about-us{
+    color: red;
+}
+
+.separate{
+    display:flex;
+    justify-content: space-evenly;
+    gap:50px;
+}
+
+.image2 img{
+    width: 50%;
+    height: auto;
+    max-height: 600px;
+}
+
+.image2{
+    position:relative;
+}
+
+.text-in-image2{
+    position:absolute;
+    bottom:4%;
+    right:40%;
+}
+
+.img2{
+    cursor:pointer;
+    background-color: red;
+    border-radius: 100%;
+    border: none;
+    color: white;
+    padding: 5%;
+    height:2rem;
+    width:2rem;
+}
+
+/*Styling Menu section*/
+
+.Menu-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.menu{
+    color:red;
+}
+
+.categories ul{
+    list-style-type: none;
+}
+
+.categories ul li{
+    display: inline;
+    gap: 10px;
+}
+
+.categories ul li a{
+    text-decoration: underline solid red;
+    color: black;
+}
+
+.categories ul li a:hover{
+    color: red;
+    transition: 0.5s ease-in-out;
+}
+
+.menu-items{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.dish{
+    height:30rem;
+    width:30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    display:block;
+}
+
+.desc{
+    color:dimgrey;
+}
+
+.price{
+    color: red;
+}
+
+.content{
+    text-align: center;
+}
+
+/*Styling Testimonial Section*/
+
+.Testimonials{
+    background-color: rgb(218, 144, 32);
+}
+
+.Testimonial-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding:40px;
+}
+
+.h2-container-1{
+    display: flex;
+    gap: 5px;
+}
+
+.test{
+    color:red;
+}
+
+.name{
+    display:block;
+    font-size:large;
+    font-weight: bold;
+}
+
+.designation{
+    color:#555
+}
+
+.testmonial-img img{
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+/*Styling Events section*/
+
+.Event-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding:40px
+}
+
+.events-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50rem;
+    gap:10px;
+}
+
+.event-1{
+    background-image: url("./images/events-1.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.events-1{
+    position:absolute;
+    color:#fff;
+    top:70%;
+}
+
+.starting-from{
+    text-decoration: underline solid red;
+}
+
+.event-2{
+    background-image: url("./images/events-2.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.events-2{
+    position:absolute;
+    color:#fff;
+    top:70%;
+}
+
+.event-3{
+    background-image: url("./images/events-3.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.events-3{
+    position:absolute;
+    color:#fff;
+    top:70%;
+}
+
+h5{
+    font-size: large;
+}
+
+.starting-from{
+    font-size: larger;
+}
+
+/*Styling Chef's-tab*/
+
+.Chefs-tab{
+    background-color: rgb(218, 144, 32);
+}
+
+.Chefs-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding:40px
+}
+
+.chefs{
+    display: flex;
+    /*grid-template-columns: repeat(3,1fr);*/
+    gap:10px;
+}
+
+.Name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.chef-desig{
+    text-align: center;
+    color:#555;
+}
+
+.chefs-para{
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.chef-1-text,
+.chef-2-text,
+.chef-3-text {
+    max-height: 150px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+/*Styling Book-a-Table Section*/
+
+.Books-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding:40px
+}
+
+.main-container{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.form1 {
+    padding: 20px;
+    border: 1px solid #dfdcdc;
+    background-color: #dfdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group input[type="date"],
+  .form-group input[type="time"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    margin-bottom: 10px;
+  }
+
+  .form-group textarea {
+    resize: vertical;
+  }
+
+  .form-group:last-child {
+    margin-bottom: 0;
+  }
+
+  .to-be-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:10px;
+  }
+
+  .align-center{
+    display:flex;
+    justify-content: center;
+  }
+
+  /*Styling Gallery Section*/
+
+  .Gallery-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding:40px
+}
+
+.Gallery-tab{
+    background-color: rgb(218, 144, 32);
+}
+
+.pictures{
+    display:flex;
+    overflow-x: auto;
+    gap:5px;
+}
+
+.picture{
+    margin-right:10px;
+}
+
+.picture img{
+    height: 20rem;
+    width:20rem;
+}
+
+/*Styling Contact us section*/
+
+.Contact-us-heading{
+    width:90%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+    padding:40px
+}
+
+.image-section img{
+    max-width: fit-content;
+}
+
+.reach-out{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:10px;
+}
+
+.ways{
+    background-color: #dfdcdc;
+    padding: 5px;
+}
+
+.way{
+    font-weight: bold;
+    color:#3a3939;
+}
+
+.spread{
+    font-size: small;
+}
+
+.days{
+    font-weight: bold;
+}
+
+/* .to-be-inline{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:5px;
+} */
+
+.form2 {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .form-section {
+    margin-bottom: 15px;
+  }
+
+  .form-section textarea {
+    height: 100px;
+    resize: vertical;
+  }
+
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .to-be-inline{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:5px;
+  }
